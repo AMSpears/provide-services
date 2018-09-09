@@ -17,17 +17,17 @@ const Content = () => {
                 <p id= "feature-details">Loren ipsum dolor sit amet, consectetur adipiscing elit sed do eiurmud tempor incididunt</p>
               <div className= "feature-items-container">
                 <div>
-                    <img className= "feature-item-img" src ={FeatureItem}/>
+                    <img className= "feature-item-img" src ={FeatureItem} alt= "Feature item"/>
                     <h2 className= "feature-item-title">Feature</h2>
                     <p className = "feature-item-details">Loren ipsum dolor sit amet, consectetur adipiscing elit sed do</p>
                 </div>
                 <div>
-                    <img className= "feature-item-img" src ={FeatureItem}/>
+                    <img className= "feature-item-img" src ={FeatureItem} alt= "Feature item"/>
                     <h2 className= "feature-item-title">Feature</h2>
                     <p className = "feature-item-details">Loren ipsum dolor sit amet, consectetur adipiscing elit sed do</p>
                 </div>
                 <div>
-                    <img className= "feature-item-img" src ={FeatureItem}/>
+                    <img className= "feature-item-img" src ={FeatureItem} alt= "Feature item"/>
                     <h2 className = "feature-item-title">Feature</h2>
                     <p className = "feature-item-details">Loren ipsum dolor sit amet, consectetur adipiscing elit sed do</p>
                 </div>
