@@ -19,6 +19,11 @@
     background-repeat: no-repeat;
     background-size: 100% 853px;
 }
+.use-cases {
+    background: url("../Img/use_section_background.png");
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+}
 /* Main tags */
 h1, h2,
 p {
@@ -176,6 +181,59 @@ img {
     margin-top: 72px;
     margin-bottom: 31px;
 }
+/* Use Cases Section */
+  #use-cases-header{
+    height: 58px;	
+    width: 247px;	
+    color: #02A2E0;	
+    font-family: 'Montserrat';	
+    font-size: 48px;	
+    font-weight: bold;	
+    line-height: 58px;	
+    margin-top:152px;
+    margin-left:164px;
+  }
+  #use-cases-details {
+    height: 120px;	
+    width: 338px;	
+    color: #FFFFFF;	
+    font-family: 'Roboto';	
+    font-size: 18px;	
+    line-height: 24px;
+    text-align: left;
+    margin-top: 21px;
+    margin-left: 164px;
+    margin-bottom:149px;
+  }
+  #use-cases-item-img{
+    height: 81.25px;
+    width: 79.92px;
+  }
+  .use-cases-item-details{
+    height: 48px;
+    width: 403px;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-size: 18px;
+    line-height: 24px;
+    text-align: left;
+    margin-left: 40.21px;
+  }
+  .use-cases-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .use-cases-items-container{
+    margin-top: 73.04px;
+    margin-bottom:73.38px;
+    margin-right:91px;
+  }
+  .use-cases-item-container{
+    margin-bottom:56.36px;
+    margin-left: 164.15px;
+    display: flex;
+    justify-content: row;
+  }
  /* reponsiveness to other devices */
  @media only screen and (max-width: 1024px) {
 

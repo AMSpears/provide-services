@@ -1,6 +1,10 @@
 import React from 'react'
 import Logo from '../Img/provide_logo_dark-blue.png'
 import FeatureItem from "../Img/noun_Network_27392.png"
+import UseCaseImg1 from "../Img/noun_Network_1813755.png"
+import UseCaseImg2 from "../Img/noun_Network_27392.png"
+import UseCaseImg3 from "../Img/noun_Network_1354320.png"
+
 import SlideShow from "../SlideShow/SlideShow"
 import './Content.css'
 
@@ -43,6 +47,28 @@ const Content = () => {
                     <div id= "slideshow-container">
                         <SlideShow/>
                     </div>
+                </div>
+            </section>
+            <section className= "use-cases">
+                <div className= "use-cases-container">
+                    <div>
+                        <h2 id= "use-cases-header">Use Cases</h2>
+                        <p id= "use-cases-details">Loren ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmud tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mimim veniam, quis nostrud exercination ullamco laboris.</p>
+                    </div>
+                <div className= "use-cases-items-container">
+                    <div className= "use-cases-item-container">
+                        <div><img className= "use-cases-item-img" src ={UseCaseImg1} alt= "Use case item"/></div>
+                        <div><p className = "use-cases-item-details">Loren ipsum dolor sit amet, consectetur adipiscing elit sed do</p></div>
+                    </div>
+                    <div className= "use-cases-item-container">
+                        <div><img className= "use-cases-item-img" src ={UseCaseImg2} alt= "Use case item"/></div>
+                        <div><p className = "use-cases-item-details">Loren ipsum dolor sit amet, consectetur adipiscing elit sed do</p></div>
+                    </div>
+                    <div className= "use-cases-item-container">
+                        <div><img className= "use-cases-item-img" src ={UseCaseImg3} alt= "Use case item"/></div>
+                        <div><p className = "use-cases-item-details">Loren ipsum dolor sit amet, consectetur adipiscing elit sed do</p></div>
+                    </div>
+                </div>
                 </div>
             </section>
         </div>
