@@ -24,6 +24,19 @@
     background-repeat: no-repeat;
     background-size: 100% 500px;
 }
+.ceo-info {
+    background: url("../Img/footer_image_provide.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 783px;
+}
+.ceo-info-section {
+    height: 228px;
+    width: 100%;
+    opacity: 0.8;
+    background-color: #E3EAFA;
+    display: flex;
+}
 /* Main tags */
 h1, h2,
 p {
@@ -203,7 +216,6 @@ img {
     text-align: left;
     margin-top: 21px;
     margin-left: 164px;
-    margin-bottom:149px;
   }
   #use-cases-item-img{
     height: 81.25px;
@@ -225,7 +237,6 @@ img {
   }
   .use-cases-items-container{
     margin-top: 73.04px;
-    margin-bottom:73.38px;
     margin-right:91px;
   }
   .use-cases-item-container{
@@ -233,6 +244,40 @@ img {
     margin-left: 164.15px;
     display: flex;
     justify-content: row;
+  }
+  /* CEO info section */
+  #pic-container{
+    box-sizing: border-box;	
+    height: 101px;	
+    width: 101px;	
+    border: 1px solid #979797;
+    border-radius: 50%;	
+    background-color: #D8D8D8;
+    margin-left:281.5px;
+    margin-top: 63.5px;
+
+  }
+  #ceo-bio {
+    height: 42px;
+    width: 584px;
+    color: #0E142E;
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 21px;
+    text-align: left;
+    margin-top: 78px;
+    margin-left: 31.5px;
+  }
+  #ceo-name {
+    height: 19px;
+    width: 242px;
+    color: #0E142E;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    line-height: 19px;
+    text-align: left;
+    margin-left: 31.5px;
+
   }
  /* reponsiveness to other devices */
  @media only screen and (max-width: 1024px) {
