@@ -165,7 +165,17 @@ img {
     margin-bottom: 110px;
     text-align:left;
 }
-
+.screenshot-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+#slideshow-container{
+    margin-right: 128px;
+    margin-top: 72px;
+    margin-bottom: 31px;
+}
  /* reponsiveness to other devices */
  @media only screen and (max-width: 1024px) {
 

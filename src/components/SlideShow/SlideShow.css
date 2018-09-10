@@ -1,0 +1,38 @@
+/* Slideshow main container */
+.slideshow-container {
+    width: 475px;
+    height: 356px;
+    position: relative;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 8px 4px rgba(0, 0, 0, 0.2);
+}
+/* slideshow inner slides */
+.slides {
+    display: block;
+}
+/* Slides text */
+h3 {
+    text-align: center;
+    padding-top: 20px;
+}
+/* dot slider section */
+.dot-container{
+    margin-top:23px;
+    text-align: center;
+}
+.dot {
+    cursor: pointer;
+    margin: 0 14px;
+    border-radius: 50%;
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    border: 2px solid #FFFFFF;
+}
+
+.active,
+.dot:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+

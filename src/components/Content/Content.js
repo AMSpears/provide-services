@@ -1,6 +1,7 @@
 import React from 'react'
 import Logo from '../Img/provide_logo_dark-blue.png'
 import FeatureItem from "../Img/noun_Network_27392.png"
+import SlideShow from "../SlideShow/SlideShow"
 import './Content.css'
 
 const Content = () => {
@@ -34,8 +35,15 @@ const Content = () => {
               </div>
             </section>
             <section className= "screenshot">
-                <h2 id= "screenshot-header">Loren ipsum dolor sit amet consectetur</h2>
-                <p id="screenshot-details">Loren ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmud tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercination ullamco laboris nisi ut aliquip ex ea commodo consequat. eiusmud tempor incididunt</p>
+                <div className= "screenshot-container">
+                    <div>
+                        <h2 id= "screenshot-header">Loren ipsum dolor sit amet consectetur</h2>
+                        <p id="screenshot-details">Loren ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmud tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercination ullamco laboris nisi ut aliquip ex ea commodo consequat. eiusmud tempor incididunt</p>
+                    </div>
+                    <div id= "slideshow-container">
+                        <SlideShow/>
+                    </div>
+                </div>
             </section>
         </div>
     )
