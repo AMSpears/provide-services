@@ -80,6 +80,30 @@ const Content = () => {
                     </div>
                 </div>
             </section>
+            <section className = "footer">
+                <div className = "footer-info-container">
+                    <div><img id = "footer-logo" src= {Logo} alt= "Provide Service"/></div>
+                    <div>
+                        <p id= "address-details">Atlanta Tech Park<br/> 107 Technology Pkwy NW Ste. 215 <br/> Peachtree Corners, GA 30090</p>
+                    </div>
+                    <div id="divider"></div>
+                    <div className=  "social-media-links">
+                        <div> 
+                            <a className="link-icon"><i class="fab fa-github"></i></a>
+                            <a className= "link-text">github.com/provideservices</a>
+                        </div>
+                        <div> 
+                            <a className="link-icon"><i class="fab fa-twitter"></i></a>
+                            <a className= "link-text">twitter.com/provideservices</a> 
+                        </div>
+                        <div> 
+                            <a className="link-icon"><i class="fas fa-envelope">
+                            </i></a><a className= "link-text"> hello@provide.services</a>
+                        </div>
+                    </div>
+                </div>
+                <p id= "copy-rights"> Copyright © 2018 Provide Technologies Inc. All rights reserved.</p>
+            </section>
         </div>
     )
 }

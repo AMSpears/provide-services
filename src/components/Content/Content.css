@@ -37,14 +37,20 @@
     background-color: #E3EAFA;
     display: flex;
 }
-/* Main tags */
+.footer {
+    border: 1px solid #979797;
+    background-color: #0E142E;
+    height: 255px;
+    width: 100%;
+}
+/* Main Tags */
 h1, h2,
 p {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
 }
-/* Intro details */
+/* Intro Details */
 #intro-header {
     color: #ffffff;
     line-height: 44px;
@@ -94,7 +100,7 @@ p {
     cursor: pointer;
 }
 
-/* Features details */
+/* Features Details */
 #feature-header {
     color: #02A2E0;
     height: 58px;
@@ -158,7 +164,7 @@ img {
     margin-top:16px;
     margin-bottom:69px;
 }
-/* screenshot details */
+/* Screenshot Details */
 #screenshot-header {
     height: 88px;	
     width: 400px;	
@@ -245,7 +251,7 @@ img {
     display: flex;
     justify-content: row;
   }
-  /* CEO info section */
+  /* CEO Info Section */
   #pic-container{
     box-sizing: border-box;	
     height: 101px;	
@@ -279,6 +285,67 @@ img {
     margin-left: 31.5px;
 
   }
+  /* Footer Section */
+  .footer-info-container {
+    display: flex;
+  }
+  #footer-logo {
+    width:200px;
+    height: 52px;
+    margin-top:36px;
+    margin-left: 64px;
+  }
+  #address-details  {
+    height: 66px;
+    width: 230px;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 22px;
+    text-align: left;
+    margin-top:31px;
+    margin-left:456px;
+    margin-right:24px;
+  }
+  .social-media-links {
+    margin-left:48px;
+    margin-top: 24px;
+    text-align: left;
+    justify-content: column;
+  }
+  #divider {
+    height: 80px;
+    width: 1px;
+    background-color: #34394F;
+    margin-top:24px;
+    margin-left: 24px;
+      
+  }
+  .link-icon {
+    font-size:20px;
+    margin-right:20px;
+    color: #FFFFFF;
+    cursor: pointer;
+  }
+  .link-text {
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 19px;
+    cursor: pointer;
+  }
+ i {
+    margin-bottom:12px;
+  }
+  #copy-rights{
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 19px;
+    margin-top:64px;
+  }
+
+
  /* reponsiveness to other devices */
  @media only screen and (max-width: 1024px) {
 
