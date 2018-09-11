@@ -59,6 +59,9 @@ li a {
     #logo {
         padding-right: 155px;
     }
+    #team-link {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 375px) {

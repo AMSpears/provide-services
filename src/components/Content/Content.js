@@ -17,6 +17,7 @@ const Content = () => {
                 <p id= "intro-details">Loren ipsum dolor sit amet, consectetur adipiscing elit sed do eiurmud tempor incididunt</p>
                 <a href= "#"><button id= "sign-up"> Sign Up</button></a>
             </section>
+            <a name= "features">
             <section className ="feature-section">
                 <h1 id= "feature-header">Lorem ipsum dolor sit amet consectetur</h1>
                 <p id= "feature-details">Loren ipsum dolor sit amet, consectetur adipiscing elit sed do eiurmud tempor incididunt</p>
@@ -38,6 +39,7 @@ const Content = () => {
                 </div>
               </div>
             </section>
+            </a>
             <section className= "screenshot">
                 <div className= "screenshot-container">
                     <div>
@@ -49,6 +51,7 @@ const Content = () => {
                     </div>
                 </div>
             </section>
+            <a name= "use-cases">
             <section className= "use-cases">
                 <div className= "use-cases-container">
                     <div>
@@ -71,6 +74,7 @@ const Content = () => {
                 </div>
                 </div>
             </section>
+            </a>
             <section className= "cio-info">
                 <div className= "cio-info-section">
                     <div id= "pic-container"></div>
@@ -82,23 +86,23 @@ const Content = () => {
             </section>
             <section className = "footer">
                 <div className = "footer-info-container">
-                    <div><img id = "footer-logo" src= {Logo} alt= "Provide Service"/></div>
+                    <div><a href="/"><img id = "footer-logo" src= {Logo} alt= "Provide Service"/></a></div>
                     <div>
                         <p id= "address-details">Atlanta Tech Park<br/> 107 Technology Pkwy NW Ste. 215 <br/> Peachtree Corners, GA 30090</p>
                     </div>
                     <div id="divider"></div>
                     <div className=  "social-media-links">
                         <div> 
-                            <a className="link-icon"><i class="fab fa-github"></i></a>
-                            <a className= "link-text">github.com/provideservices</a>
+                            <a href= "https://github.com/provideservices" target= "_blank" className="link-icon"><i class="fab fa-github"></i></a>
+                            <a href= "https://github.com/provideservices" target= "_blank" className= "link-text">github.com/provideservices</a>
                         </div>
                         <div> 
-                            <a className="link-icon"><i class="fab fa-twitter"></i></a>
-                            <a className= "link-text">twitter.com/provideservices</a> 
+                            <a href= "https://twitter.com/provideplatform" target= "_blank" className="link-icon"><i class="fab fa-twitter"></i></a>
+                            <a href= "https://twitter.com/provideplatform" target= "_blank" className= "link-text">twitter.com/provideplatform</a> 
                         </div>
                         <div> 
-                            <a className="link-icon"><i class="fas fa-envelope"></i></a>
-                            <a className= "link-text"> hello@provide.services</a>
+                            <a href="mailto:hello@provide.services" target="_blank" className="link-icon"><i class="fas fa-envelope"></i></a>
+                            <a href="mailto:hello@provide.services" target="_blank" className= "link-text"> hello@provide.services</a>
                         </div>
                     </div>
                 </div>

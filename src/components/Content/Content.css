@@ -373,6 +373,7 @@ img {
     font-size: 14px;
     line-height: 19px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 i {
