@@ -71,12 +71,12 @@ const Content = () => {
                 </div>
                 </div>
             </section>
-            <section className= "ceo-info">
-                <div className= "ceo-info-section">
+            <section className= "cio-info">
+                <div className= "cio-info-section">
                     <div id= "pic-container"></div>
                     <div> 
-                        <p id= "ceo-bio">Loren ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmud tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                        <p id= "ceo-name">Joe Schmo - CIO at AutoDeck</p>
+                        <p id= "cio-bio">Loren ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmud tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                        <p id= "cio-name">Joe Schmo - CIO at AutoDeck</p>
                     </div>
                 </div>
             </section>
@@ -97,8 +97,8 @@ const Content = () => {
                             <a className= "link-text">twitter.com/provideservices</a> 
                         </div>
                         <div> 
-                            <a className="link-icon"><i class="fas fa-envelope">
-                            </i></a><a className= "link-text"> hello@provide.services</a>
+                            <a className="link-icon"><i class="fas fa-envelope"></i></a>
+                            <a className= "link-text"> hello@provide.services</a>
                         </div>
                     </div>
                 </div>
