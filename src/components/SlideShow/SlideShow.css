@@ -18,6 +18,8 @@ h3 {
 }
 /* dot slider section */
 .dot-container{
+    /* change display once functionality is set */
+    display: none;
     margin-top:23px;
     text-align: center;
 }

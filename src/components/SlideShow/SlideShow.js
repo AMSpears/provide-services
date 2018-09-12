@@ -8,13 +8,13 @@ class SlideShow extends React.Component {
             <section>
                 <div className = "slideshow-container">
                     <div className= "slides">
-                        <h3>Slide One</h3>
+                        <h3></h3>
                     </div>
                     <div className= "slides">
-                        <h3>Slide Two</h3>
+                        <h3></h3>
                     </div>
                     <div className= "slides">
-                        <h3>Slide Three</h3>
+                        <h3></h3>
                     </div>
                 </div>
                 <div className= "dot-container">
