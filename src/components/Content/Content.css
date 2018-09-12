@@ -74,7 +74,6 @@ p {
     font-size: 36px;
     font-weight: bolder;
     width: 733px;
-    height: 36px;
     margin-top: 64px;
 }
 
@@ -85,7 +84,6 @@ p {
     font-weight: 300;
     line-height: 38px;
     width: 762px;
-    height: 44px;
     margin-top: 16px;
 }
 
@@ -95,7 +93,6 @@ p {
     margin-left: auto;
     margin-right: auto;
     width: 426px;
-    height: 110px;
 }
 
 #sign-up {
@@ -120,7 +117,6 @@ p {
 
 #feature-header {
     color: #02A2E0;
-    height: 58px;
     width: 977px;
     font-family: 'Montserrat';
     font-size: 48px;
@@ -130,7 +126,6 @@ p {
 }
 
 #feature-details {
-    height: 74px;
     width: 762px;
     color: #0E142E;
     font-family: 'Roboto';
@@ -144,7 +139,6 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    height: 100%;
     width: 100%;
 }
 
@@ -167,7 +161,6 @@ img {
 }
 
 .feature-item-title {
-    height: 44px;
     width: 142px;
     color: #000000;
     font-family: 'Montserrat';
@@ -178,7 +171,6 @@ img {
 }
 
 .feature-item-details {
-    height: 72px;
     width: 239px;
     color: #0E142E;
     font-family: 'Roboto';
@@ -191,7 +183,6 @@ img {
 /* Screenshot Details */
 
 #screenshot-header {
-    height: 88px;
     width: 400px;
     color: #000000;
     font-family: 'Montserrat';
@@ -204,7 +195,6 @@ img {
 }
 
 #screenshot-details {
-    height: 168px;
     width: 371px;
     color: #FFFFFF;
     font-family: 'Roboto';
@@ -232,7 +222,6 @@ img {
 /* Use Cases Section */
 
 #use-cases-header {
-    height: 58px;
     width: 247px;
     color: #02A2E0;
     font-family: 'Montserrat';
@@ -244,7 +233,6 @@ img {
 }
 
 #use-cases-details {
-    height: 120px;
     width: 338px;
     color: #FFFFFF;
     font-family: 'Roboto';
@@ -261,7 +249,6 @@ img {
 }
 
 .use-cases-item-details {
-    height: 48px;
     width: 403px;
     color: #FFFFFF;
     font-family: 'Roboto';
@@ -417,7 +404,6 @@ img {
 }
 
 #cio-bio {
-    height: 42px;
     width: 584px;
     color: #0E142E;
     font-family: 'Roboto';
@@ -429,7 +415,6 @@ img {
 }
 
 #cio-name {
-    height: 19px;
     width: 242px;
     color: #0E142E;
     font-family: 'Montserrat';
@@ -453,7 +438,6 @@ img {
 }
 
 #address-details {
-    height: 66px;
     width: 230px;
     color: #FFFFFF;
     font-family: 'Roboto';
