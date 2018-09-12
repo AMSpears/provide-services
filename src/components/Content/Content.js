@@ -1,11 +1,32 @@
 import React from 'react'
+// Main Logo
 import Logo from '../Img/provide_logo_dark-blue.png'
-import FeatureItem from "../Img/noun_Network_27392.png"
-import UseCaseImg1 from "../Img/noun_Network_1813755.png"
-import UseCaseImg2 from "../Img/noun_Network_27392.png"
-import UseCaseImg3 from "../Img/noun_Network_1354320.png"
-
+// Feature Images
+import FeatureItem from "../Img/noun_Network_1.png"
+// Use cases Images
+import UseCaseImg1 from "../Img/noun_Network_2.png"
+import UseCaseImg2 from "../Img/noun_Network_1.png"
+import UseCaseImg3 from "../Img/noun_Network_3.png"
+// Team Members Images
+import Kyle from "../Img/Team/kyles-thomas.png"
+import Misha from "../Img/Team/misha-sulpovar.png"
+import Dawn from "../Img/Team/dawn-mcgreevey.png"
+import Jeff from "../Img/Team/jeff-bekiares.png"
+import Zac from "../Img/Team/zac-parker.png"
+import Taylor from "../Img/Team/taylor-heath.png"
+import Philip from "../Img/Team/philip-keiter.png"
+import Kevin from "../Img/Team/kevin-munc.png"
+import Chaz from "../Img/Team/chaz-spears.png"
+// Advisor Members Images
+import Greg from "../Img/Team/Advisors/greg-kidd.png"
+import Chris from "../Img/Team/Advisors/chris-maffuccio.png"
+import Austin from "../Img/Team/Advisors/austin-mills.png"
+import Dale from "../Img/Team/Advisors/dale-tuck.png"
+import Len from "../Img/Team/Advisors/len-vitello.png"
+import Thomas from "../Img/Team/Advisors/thomas-bennett.png"
+// screenshot slideshow section
 import SlideShow from "../SlideShow/SlideShow"
+//Content CSS
 import './Content.css'
 
 const Content = () => {
@@ -74,6 +95,97 @@ const Content = () => {
                 </div>
                 </div>
             </section>
+            </a>
+            <a name="team">
+            <section className= "team-advisors-section">
+                <div className= "team-main-container">
+                <div className="header-container"><h1 id="team-header">Our Team</h1></div>
+                    <div className= "team-container-1">
+                        <div className= "team-member-details">
+                            <img className="team-member-img" src= {Kyle}  alt= "Team Member"/>
+                            <p className="team-member-name">Kyle Thomas</p>
+                            <p className="team-member-title">Founder, CEO & CTO</p>
+                        </div>
+                        <div className= "team-member-details">
+                            <img className="team-member-img" src= {Misha}  alt= "Team Member"/>
+                            <p className="team-member-name"> Misha Sulpovar</p>
+                            <p className="team-member-title"> Co-Founder & COO/CSO</p>
+                        </div>
+                       <div className= "team-member-details">
+                            <img className="team-member-img" src= {Dawn}  alt= "Team Member"/>
+                            <p className="team-member-name"> Dawn McGreevey</p>
+                            <p className="team-member-title"> Marketing</p>   
+                        </div>
+                       <div className= "team-member-details">
+                            <img className="team-member-img" src= {Jeff}  alt= "Team Member"/>
+                            <p className="team-member-name"> Jeff Bekiares</p>
+                            <p className="team-member-title"> General Counsel</p>
+                        </div>
+                        </div>
+                        <div className= "team-container-2">
+                            <div className= "team-member-details-2">
+                                <img className="team-member-img-row-2" src= {Zac}  alt= "Team Member"/>
+                                <p className="team-member-name">Zac Parker</p>
+                                <p className="team-member-title">Product/QA</p>
+                            </div>
+                            <div className= "team-member-details-2">
+                                <img className="team-member-img-row-2" src= {Taylor}  alt= "Team Member"/>
+                                <p className="team-member-name">Taylor Heath</p>
+                                <p className="team-member-title"> Customer Success</p>
+                            </div>
+                            <div className= "team-member-details-2">
+                                <img className="team-member-img-row-2"  src= {Philip}  alt= "Team Member"/>
+                                <p className="team-member-name"> Philip Keiter</p>
+                                <p className="team-member-title"> Front-End Architect</p>
+                            </div>
+                            <div className= "team-member-details-2">
+                                <img className="team-member-img-row-2" src= {Kevin}  alt= "Team Member"/>
+                                <p className="team-member-name">Kevin Munc</p>
+                                <p className="team-member-title"> Sr. Platform Engineer</p>
+                            </div>
+                            <div className= "team-member-details-2">
+                                <img className="team-member-img-row-2" src= {Chaz}  alt= "Team Member"/>
+                                <p className="team-member-name"> Chaz Spears</p>
+                                <p className="team-member-title"> UX Consultant</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className= "advisors-main-container">                       
+                         <h1 id= "advisors-header">Advisors</h1>
+                        <div className= "advisors-container">
+                            <div className= "advisor-member-details">
+                                <img className= "advisor-member-img" src= {Greg}  alt= "Advisor"/>
+                                <p className="advisor-member-name"> Greg Kidd</p>
+                                <p className="advisor-member-title">Position and Company</p>
+                            </div>
+                            <div className= "advisor-member-details">
+                                <img className= "advisor-member-img" src= {Chris}  alt= "Advisor"/>
+                                <p className="advisor-member-name"> Chris Maffuccio</p>
+                                <p className="advisor-member-title">Position and Company</p>
+                            </div>
+                            <div className= "advisor-member-details">
+                                <img className= "advisor-member-img"src= {Austin}  alt= "Advisor"/>
+                                <p className="advisor-member-name"> Austin Mills</p>
+                                <p className="advisor-member-title">Position and Company</p>
+                            </div>
+                            <div className= "advisor-member-details">
+                                <img className= "advisor-member-img" src= {Dale}  alt= "Advisor"/>
+                                <p className="advisor-member-name"> Dale Tuck</p>
+                                <p className="advisor-member-title">Position and Company</p>
+                            </div>
+                            <div className= "advisor-member-details">
+                                <img className= "advisor-member-img"src= {Len}  alt= "Advisor"/>
+                                <p className="advisor-member-name"> Len Vitello</p>
+                                <p className="advisor-member-title">Position and Company</p>
+                            </div>
+                            <div className= "advisor-member-details">
+                                <img className= "advisor-member-img" src= {Thomas}  alt= "Advisor"/>
+                                <p className="advisor-member-name"> Thomas Bennett</p>
+                                <p className="advisor-member-title">Position and Company</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </a>
             <section className= "cio-info">
                 <div className= "cio-info-section">
