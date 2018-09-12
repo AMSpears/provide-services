@@ -1,6 +1,6 @@
 # Provide Services 
 
-<img src="/src/components/Img/provide_logo_white-background.png" alt="Logo" width="200px" height= "200px"/>
+<img src="/src/components/Img/provide_logo_white-background.png" alt="Logo" width="400px" height= "400px"/>
 
 ## Technologies used 
 
