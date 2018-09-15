@@ -8,7 +8,8 @@ section {
 .intro {
     background: url('../Img/header_image_provide.png');
     background-repeat: no-repeat;
-    background-size: 100% 853px;
+    background-size: cover;
+    height: 853px;
 }
 
 .feature-section {
@@ -32,6 +33,9 @@ section {
     background-repeat: no-repeat;
     background-size: 100% 550px;
     height:550px;
+}
+.advisors-mobile-version{
+    display:none;
 }
 .cio-info {
     background: url("../Img/footer_image_provide.png");
@@ -72,7 +76,7 @@ p {
     line-height: 44px;
     font-family: 'Montserrat';
     font-size: 36px;
-    font-weight: bolder;
+    font-weight: bold;
     width: 733px;
     margin-top: 64px;
 }
@@ -120,7 +124,7 @@ p {
     width: 977px;
     font-family: 'Montserrat';
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: bold;
     line-height: 58px;
     margin-top: 64px;
 }
@@ -187,7 +191,7 @@ img {
     color: #000000;
     font-family: 'Montserrat';
     font-size: 36px;
-    font-weight: bolder;
+    font-weight: bold;
     line-height: 44px;
     margin-left: 137px;
     margin-top: 153px;
@@ -222,14 +226,13 @@ img {
 /* Use Cases Section */
 
 #use-cases-header {
-    width: 247px;
     color: #02A2E0;
     font-family: 'Montserrat';
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: bold;
     line-height: 58px;
     margin-top: 152px;
-    margin-left: 164px;
+    margin-left: 100px;
 }
 
 #use-cases-details {
@@ -301,7 +304,7 @@ img {
     color: #0E142E;
     font-family: 'Montserrat';
     font-size: 36px;
-    font-weight: bolder;
+    font-weight: bold;
     line-height: 44px;
     margin-left: 52px;
   }
@@ -359,7 +362,7 @@ img {
     color: #E3EAFA;	
     font-family:'Montserrat';	
     font-size: 36px;	
-    font-weight: bolder;	
+    font-weight: bold;	
     line-height: 44px;
     margin-top:36px;
     margin-left:36px;
@@ -377,7 +380,7 @@ img {
     color: #FFFFFF;	
     font-family: 'Roboto';	
     font-size: 14px;	
-    font-weight: bolder;	
+    font-weight: bold;	
     line-height: 19px;	
     text-align: center;
     margin-bottom:-12px;
@@ -442,6 +445,7 @@ img {
     color: #FFFFFF;
     font-family: 'Roboto';
     font-size: 14px;
+    font-weight: 300;
     line-height: 22px;
     text-align: left;
     margin-top: 31px;
@@ -455,6 +459,26 @@ img {
     text-align: left;
     justify-content: column;
 }
+
+#divider {
+    height: 80px;
+    width: 1px;
+    background-color: #34394F;
+    margin-top: 24px;
+    margin-left: 24px;
+    margin-right:24px;
+}
+
+.media-links {
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight:300;
+}
+
 
 #divider {
     height: 80px;
@@ -479,7 +503,11 @@ img {
     cursor: pointer;
     text-decoration: none;
 }
+.link-icon:hover,
+.link-text:hover {
+        color:#02A2E0;
 
+}
 i {
     margin-bottom: 12px;
 }
@@ -544,8 +572,38 @@ i {
     #pic-container {
         margin-left: 100px;
     }
+   
 }
+@media only screen and (max-width:1413px){
+    .advisors-main-container{
+        display:none;
+    }
+  
+    .advisors-mobile-version{
+         background-color: #02A2E0;
+         height: 300px;
+         display: flex;
+         flex-wrap: wrap;
+         background-size: 100% 500px;
+    }
 
+    .advisors-container{
+        margin-bottom: 30px;
+        margin-left:130px;
+    }
+
+    #advisors-header{
+        margin-top:30px;
+        margin-left:100px;
+       
+    }
+  
+    .advisor-member-img {
+        height:80px;
+        width:80px;
+    }
+
+}
 @media only screen and (max-width: 1024px) {
     /* intro adjustments */
     #sign-up {
@@ -559,6 +617,15 @@ i {
     .use-cases-item-details {
         height: 48px;
         width: 210px;
+    }
+    .advisors-container {
+        margin-bottom: 30px;
+        margin-left: 30px;
+        margin-top:10px;
+        flex-wrap: nowrap;
+    }
+    .advisor-member-details {
+        margin-right: 10px;
     }
 }
 

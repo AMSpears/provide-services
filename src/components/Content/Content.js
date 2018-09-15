@@ -186,6 +186,41 @@ const Content = () => {
                         </div>
                     </div>
                 </section>
+                <section className="advisors-mobile-version">
+                        <h1 id= "advisors-header">Advisors</h1>
+                       <div className= "advisors-container">
+                            <div className= "advisor-member-details">
+                                <img className= "advisor-member-img" src= {Greg}  alt= "Advisor"/>
+                                <p className="advisor-member-name"> Greg Kidd</p>
+                                <p className="advisor-member-title">Position and Company</p>
+                            </div>
+                            <div className= "advisor-member-details">
+                                <img className= "advisor-member-img" src= {Chris}  alt= "Advisor"/>
+                                <p className="advisor-member-name"> Chris Maffuccio</p>
+                                <p className="advisor-member-title">Position and Company</p>
+                            </div>
+                            <div className= "advisor-member-details">
+                                <img className= "advisor-member-img"src= {Austin}  alt= "Advisor"/>
+                                <p className="advisor-member-name"> Austin Mills</p>
+                                <p className="advisor-member-title">Position and Company</p>
+                            </div>
+                            <div className= "advisor-member-details">
+                                <img className= "advisor-member-img" src= {Dale}  alt= "Advisor"/>
+                                <p className="advisor-member-name"> Dale Tuck</p>
+                                <p className="advisor-member-title">Position and Company</p>
+                            </div>
+                            <div className= "advisor-member-details">
+                                <img className= "advisor-member-img"src= {Len}  alt= "Advisor"/>
+                                <p className="advisor-member-name"> Len Vitello</p>
+                                <p className="advisor-member-title">Position and Company</p>
+                            </div>
+                            <div className= "advisor-member-details">
+                                <img className= "advisor-member-img" src= {Thomas}  alt= "Advisor"/>
+                                <p className="advisor-member-name"> Thomas Bennett</p>
+                                <p className="advisor-member-title">Position and Company</p>
+                            </div>
+                        </div>
+                </section>
             </a>
             <section className= "cio-info">
                 <div className= "cio-info-section">
@@ -196,29 +231,28 @@ const Content = () => {
                     </div>
                 </div>
             </section>
-            <section className = "footer">
+           <section className = "footer">
                 <div className = "footer-info-container">
-                    <div><a href="/"><img id = "footer-logo" src= {Logo} alt= "Provide Service"/></a></div>
+                    <div>
+                        <a href="/"><img id = "footer-logo" src= {Logo} alt= "Provide Service"/></a>
+                    </div>
                     <div>
                         <p id= "address-details">Atlanta Tech Park<br/> 107 Technology Pkwy NW Ste. 215 <br/> Peachtree Corners, GA 30090</p>
                     </div>
                     <div id="divider"></div>
                     <div className=  "social-media-links">
                         <div> 
-                            <a href= "https://github.com/provideservices" target= "_blank" className="link-icon"><i class="fab fa-github"></i></a>
-                            <a href= "https://github.com/provideservices" target= "_blank" className= "link-text">github.com/provideservices</a>
+                            <a href= "https://github.com/provideservices" target= "_blank" className="media-links"><i class="fab fa-github"></i>  github.com/provideservices</a>
                         </div>
                         <div> 
-                            <a href= "https://twitter.com/provideplatform" target= "_blank" className="link-icon"><i class="fab fa-twitter"></i></a>
-                            <a href= "https://twitter.com/provideplatform" target= "_blank" className= "link-text">twitter.com/provideplatform</a> 
+                            <a href= "https://twitter.com/provideplatform" target= "_blank" className="media-links"><i class="fab fa-twitter"></i>twitter.com/provideplatform</a>
                         </div>
                         <div> 
-                            <a href="mailto:hello@provide.services" target="_blank" className="link-icon"><i class="fas fa-envelope"></i></a>
-                            <a href="mailto:hello@provide.services" target="_blank" className= "link-text"> hello@provide.services</a>
+                            <a href="mailto:hello@provide.services" target="_blank" className="media-links"><i class="fas fa-envelope"></i>hello@provide.services</a>
                         </div>
                     </div>
-                </div>
-                <p id= "copy-rights"> Copyright © 2018 Provide Technologies Inc. All rights reserved.</p>
+                    </div>
+                 <div><p id= "copy-rights"> Copyright © 2018 Provide Technologies Inc. All rights reserved.</p></div>
             </section>
         </div>
     )

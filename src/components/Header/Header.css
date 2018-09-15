@@ -2,29 +2,48 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow: auto;
+    white-space: nowrap;
 }
 
 li {
     float: left;
 }
 
+.links {
+    margin-top: 57px;
+    margin-left: 940px;
+    margin-right: 0;
+    margin-bottom: 0;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
 li a {
-    display: block;
-    padding: 45px 60px 36px 0;
+    margin-top: 38px;
+    margin-right: 60px;
     text-decoration: none;
     color: #000000;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto';
     font-size: 16px;
     font-weight: 900;
     line-height: 22px;
     text-align: center;
 }
 
-#logo {
-    padding: 34px 744px 36px 37.49px;
-    float: left;  
+.nav-links:hover {
+    color: #02A2E0
 }
+
+#logo {
+    float: left;
+    margin-top: 27.43px;
+    margin-left: 37.49px;
+    margin-bottom: 26.31px;
+    margin-right: 0px;
+}
+
+
 
 @media only screen and (max-width: 1470px) {
     ul {
@@ -39,45 +58,61 @@ li a {
     li {
         float: none;
     }
+}
 
-    #logo {
-        padding-right: 644px;
+@media only screen and (max-width: 1024px) {
+    .links {
+        margin-left: 507px;
     }
 }
 
 @media only screen and (max-width: 768px) {
-    #logo {
-        padding-right: 444px;
+    .links {
+        margin-top: 58px;
+        margin-left: 407px;
     }
 }
 
 @media only screen and (max-width: 414px) {
+    .links {
+        margin-top: 33pt;
+        margin-right: 55pt;
+        margin-left: 0;
+        margin-bottom: 0;
+
+    }
+
     li a {
-        font-size: 14px;
+        display: block;
+        margin-right: 60pt;
+        font-size: 16pt;
+        line-height: 22pt;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 0;
+
     }
 
     #logo {
-        padding-right: 155px;
+        float: left;
+        margin-left: 22.44pt;
+        margin-top: 24pt;
+        margin-bottom: 24pt;
+        margin-right: 55pt;
+        ;
     }
+
+    #logo img {
+        width: 148.5pt;
+        height: 37.5pt;
+        margin-bottom: 0;
+    }
+
     #team-link {
         display: none;
     }
 }
 
-@media only screen and (max-width: 375px) {
-    #logo {
-        padding-right: 145px;
-    }
-}
+@media only screen and (max-width: 375px) {}
 
-@media only screen and (max-width: 320px) {
-    #logo {
-        padding-right: 115px;
-    }
-}
-
-
-
-    	
-
-
+@media only screen and (max-width: 320px) {}
