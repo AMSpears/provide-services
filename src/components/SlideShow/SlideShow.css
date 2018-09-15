@@ -38,3 +38,49 @@ h3 {
     background-color: rgba(255, 255, 255, 0.6);
 }
 
+@media only screen and (max-width: 414px) {
+   .slideshow-container {
+       width: 288pt;
+       height: 216pt;
+       border-radius: 12pt;
+       box-shadow: 0 2pt 8pt 4pt rgba(0, 0, 0, 0.2);
+   }
+   .dot-container {
+       /* change display once functionality is set */
+       display: none;
+       margin-top: 23pt;
+       text-align: center;
+   }
+   .dot {
+       margin: 0 14pt;
+       height: 18pt;
+       width: 18pt;
+       border: 2pt solid #FFFFFF;
+   }
+}
+@media only screen and (max-width: 375px) {
+    .slideshow-container {
+        width: 248pt;
+        height: 216pt;
+    }
+    .dot-container {
+        /* change display once functionality is set */
+        display: none;
+        margin-top: 23pt;
+        text-align: center;
+    }
+
+    .dot {
+        margin: 0 12pt;
+        height: 14pt;
+        width: 14pt;
+        border: 2pt solid #FFFFFF;
+    }
+    
+}
+@media only screen and (max-width: 320px) {
+    .slideshow-container {
+        width: 200pt;
+        height: 200pt;    
+    }
+}
