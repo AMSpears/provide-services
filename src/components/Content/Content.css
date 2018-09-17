@@ -39,7 +39,7 @@ section {
     background: url("../Img/footer_image_provide.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 770px;
+    height: 100%;
 }
 
 .cio-info-section {
@@ -161,14 +161,7 @@ p {
 }
 
 
-/* .feature-items-container div {
-    max-height: 100%;
-    max-width: 100%;
-} */
-
 img {
-    /* max-height: 100%;
-    max-width: 100%; */
     display: block;
     margin: auto;
 }
@@ -225,7 +218,6 @@ img {
     font-weight: bold;
     line-height: 44px;
     text-align: left;
-    /* check margin below */
     margin-left:20px;
 }
 
@@ -273,7 +265,6 @@ img {
     line-height: 58px;
     text-align: left;
     margin-left: 164px;
-
 }
 #use-cases-details {
     width: 338px;
@@ -303,6 +294,7 @@ img {
 }
 
 /* Team and Advisors Section */
+
 .team-advisors-section {
     display: flex;
 }
@@ -311,7 +303,6 @@ img {
     flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 58px;
-    /* padding: 0px 25px 0px 75px;  */
 }
 
 .team-container-1{
@@ -333,7 +324,6 @@ img {
     line-height: 44px;
     margin-left: 51px;
     margin-bottom: 40px;
-    /* look into alternative for margin below */
     margin-right: 667px;
 }
 
@@ -526,14 +516,6 @@ img {
     font-weight:300;
 }
 
-
-#divider {
-    height: 80px;
-    width: 1px;
-    background-color: #34394F;
-    margin-top: 24px;
-    margin-left: 24px;
-}
 
 .link-icon {
     font-size: 20px;
@@ -864,130 +846,130 @@ i {
 
     /* Screenshot Details */
 
-    .screenshot-details-container {
-        margin-right: 36pt;
-        margin-left: 36pt;
-    }
+        .screenshot-details-container {
+            margin-right: 36pt;
+            margin-left: 36pt;
+        }
 
-    .screenshot-container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        margin-bottom: 48pt;
-        margin-top: 48pt;
-    }
+        .screenshot-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 48pt;
+            margin-top: 48pt;
+        }
 
-    #screenshot-header {
-        width: 268pt;
-        font-size: 36pt;
-        line-height: 44pt;
-        text-align: left;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 24pt;
-    }
+        #screenshot-header {
+            width: 268pt;
+            font-size: 36pt;
+            line-height: 44pt;
+            text-align: left;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 24pt;
+        }
 
-    #screenshot-details {
-        width: 268pt;
-        font-size: 18pt;
-        font-weight: 300;
-        line-height: 24pt;
-        margin-left: auto;
-        margin-top: auto;
-        text-align: left;
-    }
+        #screenshot-details {
+            width: 268pt;
+            font-size: 18pt;
+            font-weight: 300;
+            line-height: 24pt;
+            margin-left: auto;
+            margin-top: auto;
+            text-align: left;
+        }
 
-    #slideshow-container {
-        margin-left: 36pt;
-        margin-right: 36pt;
-        margin-top: 36pt;
-    }
+        #slideshow-container {
+            margin-left: 36pt;
+            margin-right: 36pt;
+            margin-top: 36pt;
+        }
 
     /* Use Cases Section */
-    .use-cases-container {
-        margin-top: 47.09pt;
-        margin-bottom: 45.87pt;
-        margin-right: 34pt;
-        margin-left: 34pt;
-    }
+        .use-cases-container {
+            margin-top: 47.09pt;
+            margin-bottom: 45.87pt;
+            margin-right: 34pt;
+            margin-left: 34pt;
+        }
 
-    .use-cases-details-container {
-        margin-right: 0;
-    }
+        .use-cases-details-container {
+            margin-right: 0;
+        }
 
-    .use-cases-item-container {
-        margin-right: auto;
-        margin-left: auto;
-    }
+        .use-cases-item-container {
+            margin-right: auto;
+            margin-left: auto;
+        }
 
-    #use-cases-header {
-        font-size: 36pt;
-        line-height: 44pt;
-        text-align: center;
-    }
+        #use-cases-header {
+            font-size: 36pt;
+            line-height: 44pt;
+            text-align: center;
+        }
 
-    #use-cases-details {
-        font-size: 18pt;
-        font-weight: 300;
-        line-height: 24pt;
-        margin-top: 23.94pt;
-    }
+        #use-cases-details {
+            font-size: 18pt;
+            font-weight: 300;
+            line-height: 24pt;
+            margin-top: 23.94pt;
+        }
 
-    #use-cases-item-img {
-        height: 81.14pt;
-        width: 79.92pt;
-    }
+        #use-cases-item-img {
+            height: 81.14pt;
+            width: 79.92pt;
+        }
 
-    .use-cases-item-details {
-        width: 180pt;
-        font-weight: 300;
-        font-size: 18pt;
-        line-height: 24pt;
-        text-align: left;
-        margin-left: 32pt;
-    }
+        .use-cases-item-details {
+            width: 180pt;
+            font-weight: 300;
+            font-size: 18pt;
+            line-height: 24pt;
+            text-align: left;
+            margin-left: 32pt;
+        }
 
     /* CIO Info Section */
 
-    .cio-info-section {
-        margin: auto;
-        width: inherit;
-        height: 242pt;
-    }
-    .cio-details-container {
-        display: flex;
-        margin-right: 0;
-    }
+        .cio-info-section {
+            margin: auto;
+            width: inherit;
+            height: 242pt;
+        }
+        .cio-details-container {
+            display: flex;
+            margin-right: 0;
+        }
 
-    #pic-container {
-        height: 61pt;
-        width: 61pt;
-        border: 1pt solid #979797;
-        border-radius: 50%;
-        margin-left: 23pt;
-        margin-top: 35.5pt;
+        #pic-container {
+            height: 61pt;
+            width: 61pt;
+            border: 1pt solid #979797;
+            border-radius: 50%;
+            margin-left: 23pt;
+            margin-top: 35.5pt;
 
-    }
+        }
 
-    #cio-bio {
-        width: 200pt;
-        font-size: 14pt;
-        font-weight: 300;
-        line-height: 21pt;
-        margin-top: 36pt;
-        margin-left: 20pt;
-        margin-bottom: 5pt;
-        text-align: left;
-    }
+        #cio-bio {
+            width: 200pt;
+            font-size: 14pt;
+            font-weight: 300;
+            line-height: 21pt;
+            margin-top: 36pt;
+            margin-left: 20pt;
+            margin-bottom: 5pt;
+            text-align: left;
+        }
 
-    #cio-name {
-        width: 232pt;
-        font-size: 16pt;
-        font-weight: 300;
-        line-height: 19pt;
-        text-align: left;
-        margin-top: 16pt;
-    }
+        #cio-name {
+            width: 232pt;
+            font-size: 16pt;
+            font-weight: 300;
+            line-height: 19pt;
+            text-align: left;
+            margin-top: 16pt;
+        }
 
 
 }
