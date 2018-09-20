@@ -1,0 +1,121 @@
+form {
+   display:flex;
+   justify-content: center;
+}
+
+label {
+    color: #FFFFFF;	
+    font-family: 'Roboto';	
+    font-size: 24px;	
+    font-weight: bold;
+    line-height:32px;	
+}
+
+input,
+textarea {
+    height: 42px;	
+    width: 600px;	
+    border: 1px solid #02A2E0;	
+    border-radius: 4px;	
+    background-color: #FFFFFF;
+    padding-top:9px;
+    padding-left:16px;
+}
+
+textarea {
+    height: 143px;
+}
+
+input[placeholder],
+textarea[placeholder] {
+    color: #0E142E;
+    font-family: 'Roboto';
+    font-size: 18px;
+    line-height: 24px;
+}
+
+textarea {	
+    color: #E7E9F0;	
+    font-family: 'Roboto';	
+    font-size: 18px;	
+    line-height: 24px;	
+    text-align: left;
+    padding-top:9px;
+    padding-left:16px;
+
+}
+
+::placeholder {
+    color: #E7E9F0;	
+    font-family: 'Roboto';	
+    font-size: 18px;	
+    line-height: 24px;
+    text-align: left;
+    padding-bottom:9px;
+}
+
+input[type=submit] {
+    height: 56px;	
+    width: 152px;	
+    border-radius: 28px;	
+    background-color: #02A2E0;
+    color:#ffffff;
+    font-family: 'Roboto';	
+    font-size: 24px;	
+    font-weight: bold;	
+    line-height: 32px;
+    margin-top:24px;
+    padding:10px;
+    border: none;
+    cursor:pointer;
+}
+#button:hover{
+   opacity: 0.8;
+}
+
+#msg {
+    font-family: "Roboto";
+    color: #ffffff;
+    font-size: 18px;
+}
+
+/* reponsiveness to other devices */
+
+@media only screen and (max-width: 414px) {
+    label {
+        font-size: 24pt;
+        font-weight:32pt;
+    }
+    input[placeholder],
+    textarea {
+        width: 100%;
+    }
+    input[placeholder],
+    textarea {
+        font-size: 18pt;
+        line-height: 24pt;
+        padding-top: 9pt;
+        padding-left: 7pt;
+    }
+    ::placeholder {
+        font-size: 18pt;
+        line-height: 24pt;
+        padding-bottom: 9pt;
+    }
+    input{
+        width:280pt;
+        height:42pt
+    }
+    input[type=submit] {
+        height: 56pt;
+        width: 152pt;
+        border-radius: 28pt;
+        font-size: 24pt;
+        line-height: 32pt;
+        margin-top: 24pt;
+    }
+    #msg {
+        font-size: 16pt;
+    }
+}
+

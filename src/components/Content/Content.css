@@ -5,45 +5,51 @@ section {
     overflow: hidden;
 }
 
-.intro {
-    background: url('../Img/header_image_provide.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+.content-container {
+    display: inline-block;
+    width: 100%;
 }
+
+.intro {
+    background: url('../Img/provide-hero.png');
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+}
+
 .feature-section {
     background-color: #E3EAFA;
 }
 
 .screenshot {
-    background: url("../Img/product_section_background.png");
+    background: url("../Img/product-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .use-cases {
-    background: url("../Img/use_section_background.png");
+    background: url("../Img/use-cases-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-
 .team-advisors-section {
-    background: url("../Img/product_section_background.png");
+    background: url("../Img/product-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
 .cio-info {
-    background: url("../Img/footer_image_provide.png");
+    background: url("../Img/provide-footer.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
+    background-position: center bottom;
+    height: inherit;
+    padding-bottom:96px;
 }
 
 .cio-info-section {
-    height: 228px;
+    height: 290px;
     width: 100%;
     opacity: 0.8;
     background-color: #E3EAFA;
@@ -71,6 +77,13 @@ p {
 }
 
 /* Intro Details */
+.intro-container{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+
+}
 
 #intro-header {
     color: #ffffff;
@@ -95,12 +108,12 @@ p {
 
 #intro-logo {
     display: block;
-    margin-top: 165px;
     margin-top: 60px;
     margin-left: auto;
     margin-right: auto;
     width: 426px;
 }
+
 
 #sign-up {
     color: #E3EAFA;
@@ -110,16 +123,18 @@ p {
     text-align: center;
     line-height: 36px;
     width: 256px;
-    height: 72px;
-    border: #0E142E;
+    border:none;
     border-radius: 36px;
     background-color: #0E142E;
-    margin-left: 44%;
-    margin-top: 80px;
-    margin-bottom: 87px;
+    margin-top: 82px;
+    margin-bottom: 60px;
     cursor: pointer;
     display: block;
     text-decoration: none;
+    padding-right:auto;
+    padding-left:auto;
+    padding-top:17px;
+    padding-bottom:17px;
 }
 
 #sign-up:active,
@@ -129,16 +144,19 @@ p {
 }
 
 /* Features Details */
+ 
 
+.feature-main-container {
+    margin-top: 64px;
+    margin-bottom:64px;
+}
 #feature-header {
     color: #02A2E0;
-    width: 977px;
     width: auto;
     font-family: 'Montserrat';
     font-size: 48px;
     font-weight: bold;
     line-height: 58px;
-    margin-top: 64px;
 }
 
 #feature-details {
@@ -148,26 +166,29 @@ p {
     font-size: 28px;
     line-height: 37px;
     margin-top: 12px;
-    margin-bottom: 0px;
-
 }
 
 .feature-items-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: top;
+    margin-top: 61px;
     width: 100%;
 }
-
+#feature-item-link {
+    text-decoration:none;
+    color: #02A2E0;
+    cursor:pointer;
+}
+#feature-item-link:hover{
+    text-decoration:underline;
+    color:#02A2E0;
+}
 
 img {
     display: block;
     margin: auto;
-}
-
-.feature-item {
-    margin-top: 61px;
 }
 
 .feature-item-img {
@@ -177,26 +198,26 @@ img {
 }
 
 .feature-item-title {
-    width: 142px;
+    width: auto;
     color: #000000;
     font-family: 'Montserrat';
-    font-size: 36px;
+    font-size: 32px;
     font-weight: 600;
     line-height: 44px;
-    margin-top: 33.93px;
+    margin-top: 34px;
 }
 
 .feature-item-details {
-    width: 239px;
+    width: 370px;
     color: #0E142E;
     font-family: 'Roboto';
     font-size: 18px;
     line-height: 24px;
     margin-top: 16px;
-    margin-bottom: 69px;
+    text-align: justify;
 }
-
 /* Screenshot Details */
+
 .screenshot-container {
     display: flex;
     flex-wrap: nowrap;
@@ -206,10 +227,10 @@ img {
     margin-top: 72px;
     margin-left: 137px;
 }
-.screenshot-details-container{
+.screenshot-details-container {
     margin-right: 164px;
-
 }
+
 #screenshot-header {
     width: 400px;
     color: #000000;
@@ -218,7 +239,7 @@ img {
     font-weight: bold;
     line-height: 44px;
     text-align: left;
-    margin-left:20px;
+    margin-left: 20px;
 }
 
 #screenshot-details {
@@ -233,8 +254,9 @@ img {
 
 #slideshow-container {
     margin-right: 128px;
+    width:475px;
+ }
 
-}
 
 /* Use Cases Section */
 
@@ -243,8 +265,8 @@ img {
     flex-wrap: nowrap;
     align-items: center;
     justify-content: space-evenly;
-    margin-top: 73.04px;
-    margin-bottom: 73.04px;
+    margin-top: 73px;
+    margin-bottom: 73px;
 }
 
 .use-cases-details-container {
@@ -252,7 +274,7 @@ img {
 }
 
 .use-cases-item-container {
-    margin-bottom: 56.36px;
+    margin-bottom: 56px;
     display: flex;
     align-items: center;
 }
@@ -266,6 +288,7 @@ img {
     text-align: left;
     margin-left: 164px;
 }
+
 #use-cases-details {
     width: 338px;
     color: #FFFFFF;
@@ -277,10 +300,9 @@ img {
     margin-left: 164px;
 }
 
-
 #use-cases-item-img {
-    height: 81.25px;
-    width: 79.92px;
+    height: 81px;
+    width: 80px;
 }
 
 .use-cases-item-details {
@@ -290,30 +312,40 @@ img {
     font-size: 18px;
     line-height: 24px;
     text-align: left;
-    margin-left: 40.21px;
+    margin-left: 40px;
 }
 
 /* Team and Advisors Section */
 
 .team-advisors-section {
     display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
 }
+
 .team-main-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    margin-bottom: 58px;
+    align-items: center;
+    justify-content: center;  
+    margin-bottom:36px;
+    margin-top:36px;
 }
 
-.team-container-1{
-    display:flex;
-    flex-wrap: nowrap;
-    margin-right: 75px;
-}
-.team-container-2{
+.team-container-1 {
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-wrap: nowrap;
-    margin-right:75px;
+    width:100%;
+}
+
+.team-container-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    width:100%;
 }
 
 #team-header {
@@ -322,37 +354,39 @@ img {
     font-size: 36px;
     font-weight: bold;
     line-height: 44px;
+    text-align:left;
     margin-left: 51px;
-    margin-bottom: 40px;
-    margin-right: 667px;
+    width:100%;
 }
 
 .team-member-details {
-    margin-right:66px;
-    margin-bottom:35px;
+    margin-right: 66px;
+    margin-bottom: 35px;
 }
 
 .team-member-details-2 {
-    margin-right: 76px;
+    margin-right: 45px;
     justify-content: center;
 }
 
 .team-member-img {
-    height: 130px;
-    width: 130px;
+    height: 150px;
+    width: 150px;
 }
-.team-member-img-row-2{
-    height:90px;
-    width:90px;
+
+.team-member-img-row-2 {
+    height: 100px;
+    width: 100px;
 }
+
 .team-member-name {
-    color:#ffffff;	 
-    font-family: 'Roboto';	
-    font-size: 14px;	
-    font-weight: bold;	
-    line-height: 19px;	
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 19px;
     text-align: center;
-    margin-top:11px;
+    margin-top: 11px;
     margin-bottom: 4px;
 }
 
@@ -364,34 +398,36 @@ img {
     margin-top: 0;
     font-weight: normal;
 }
+
 .advisors-main-container {
     background-color: #02A2E0;
     height: inherit;
     float: right;
     display: flex;
     flex-wrap: wrap;
-    width:383px;
+    width: 383px;
+
 }
 
- .advisors-container{
+.advisors-container {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-    margin-bottom: 57px;
-    margin-left: 31px;
-
- }
-
- #advisors-header{
-    color: #E3EAFA;	
-    font-family:'Montserrat';	
-    font-size: 36px;	
-    font-weight: bold;	
-    line-height: 44px;
     margin-top:36px;
-    margin-left:36px;
-    margin-right:199px;
+    margin-bottom: 36px;
+    margin-left:31px;
+}
+
+#advisors-header {
+    color: #E3EAFA;
+    font-family: 'Montserrat';
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 44px;
+    margin-top: 90px;
+    margin-left: 36px;
+    margin-right: 199px;
     margin-bottom: 24px;
 }
 
@@ -399,31 +435,29 @@ img {
     margin-right: 31px;
 }
 .advisor-member-img {
-    height:60px;
-    width:60px;
-}
-.advisor-member-name {	
-    color: #FFFFFF;	
-    font-family: 'Roboto';	
-    font-size: 14px;	
-    font-weight: bold;	
-    line-height: 19px;	
-    text-align: center;
-    margin-top: 15px;
-    margin-bottom: -15px;
+    height: 90px;
+    width: 90px;
 }
 
-.advisor-member-title{
-    color: #FFFFFF;	
-    font-family: 'Roboto';	
-    font-size: 14px;	
-    font-weight: 500;	
+.advisor-member-name {
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: bold;
     line-height: 19px;
-    text-align: left;
+    text-align: center;
+    margin-top: 15px;
 }
 
 /* CIO Info Section */
-
+.cio-details-container{
+    display:flex;
+    justify-content: center;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 63px;   
+    margin-bottom:63px;
+}
 #pic-container {
     box-sizing: border-box;
     height: 101px;
@@ -431,31 +465,75 @@ img {
     border: 1px solid #979797;
     border-radius: 50%;
     background-color: #D8D8D8;
-    margin-left: 281.5px;
-    margin-top: 63.5px;
 }
 
 #cio-bio {
-    width: 584px;
+    width: 686px;
     color: #0E142E;
     font-family: 'Roboto';
     font-size: 16px;
     line-height: 21px;
     text-align: left;
-    margin-top: 78px;
     margin-left: 31.5px;
 }
 
 #cio-name {
-    width: 242px;
+    width: auto;
     color: #0E142E;
     font-family: 'Montserrat';
     font-size: 16px;
+    font-weight:bold;
     line-height: 19px;
     text-align: left;
     margin-left: 31.5px;
 }
+/* partners and contact form section */
 
+.partners-contactform-outer-container{
+    display:flex;
+    flex-direction: column;
+    margin-top:68px;
+}
+.contact-form-container{
+    margin-top:120px;
+}
+.partners-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.partners-logo {
+    margin-right:70px;
+    margin-top:0;
+    margin-bottom:0;
+}
+.partners-logo img {
+    height: 60px;
+}
+.contact-form-container{
+    margin-top:120px;
+}
+#partners-header {
+    width: 100%;	
+    color: #FFFFFF;	
+    font-family: 'Montserrat';	
+    font-size: 32px;	
+    font-weight: bold;	
+    line-height: 39px;	
+    text-align: center;
+    margin-bottom:28px;
+}
+#contact-us-header {
+    width: 100%;
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 39px;
+    text-align: center;
+    margin-bottom:24px;
+}
 /* Footer Section */
 
 .footer-info-container {
@@ -472,12 +550,14 @@ img {
     margin-top: 30px;
     margin-left: 64px;
 }
+
 .details-container {
     float: right;
     display: flex;
     position: absolute;
     right: 64px;
 }
+
 #address-details {
     width: 230px;
     color: #FFFFFF;
@@ -495,8 +575,6 @@ img {
     text-align: left;
     justify-content: column;
 }
-
-
 #divider {
     height: 150px;
     width: 1px;
@@ -515,22 +593,19 @@ img {
     cursor: pointer;
     font-weight:300;
 }
-
-
 .link-icon {
     font-size: 20px;
     margin-right: 20px;
     color: #FFFFFF;
     cursor: pointer;
 }
-
 .media-links:hover {
     color: #02A2E0;
 }
 
 i {
     margin-bottom: 12px;
-    margin-right: 20px;
+    margin-right:20px;
     font-size: 20px;
 }
 
@@ -543,433 +618,571 @@ i {
     font-weight: 300;
 }
 
-
 /* reponsiveness to other devices */
 
-
-
-@media only screen and (max-width: 1186px) {
-
-    /* screenshot adjustments */
-        .screenshot-container {
-            flex-wrap: nowrap;
-            margin-top: 20px;
-            margin-bottom: 20px;
-        }
-
-        #screenshot-header {
-            margin-top: 20px;
-            margin-left: 80px;
-        }
-
-        #screenshot-details {
-            margin-left: 80px;
-        }
-
-        #slideshow-container {
-            margin-left: 70px;
-        }
-
-    /* use cases adjustments */
-        .use-cases-container {
-            flex-wrap: nowrap;
-        }
-
-        #use-cases-header {
-            margin-left: 55px;
-        }
-
-        #use-cases-details {
-            margin-left: 80px;
-        }
-
-        .use-cases-item-details {
-            height: 48px;
-            width: 290px;
-        }
-
-        .use-cases-container {
-            flex-wrap: nowrap;
-        }
-
-    /* footer adjustments */
-        .cio-info {
-            height: 600px;
-        }
-
-        #pic-container {
-            margin-left: 100px;
-        }
-}
 
 @media only screen and (max-width: 1024px) {
 
     /* intro adjustments */
-        #sign-up {
-            margin-left: 40%;
-        }
-
+    #sign-up {
+        margin-left: auto;
+        margin-right:auto;
+    }
+    /* Feature adjusments */
+    .feature-items-container{
+        display: flex;
+        flex-direction: column;
+        margin-top:10px;
+    }
+    .feature-item-details{
+        width:700px;
+    }
+ 
+    .feature-item{
+        margin-bottom:0;
+    }
     /* screenshot adjustments */
-        .screenshot-details-container {
-            margin-left: 10px;
-            margin-right: 10px;
-        }
+    .screenshot-container {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    .screenshot-details-container {
+        margin-left: auto;
+        margin-right: auto;
+    }
 
-        #slideshow-container {
-            margin-left: 20px;
-        }
+    #slideshow-container {
+        margin-left: auto;
+    }
 
     /* use cases adjustments */
-        #use-cases-header {
-            width: 260px;
-            margin-top: 60px;
-            margin-left: 80px;
-        }
+    #use-cases-header {
+        width: 260px;
+        margin-left: auto;
+        margin-right:auto;
+    }
+    .use-cases-items-container{
+        margin-top:60px;;
+        margin-bottom:auto;
+        margin-right:auto;
+        margin-left:auto;
+    }
+    .use-cases-item-details {
+        height: 48px;
+        width: 210px;
+        margin-top:0;
+    }
+    /* Team and Advisors adjusments */
+    .team-main-container{
+        margin-right:auto;
+        margin-left:auto;    
+    }
+    .team-member-img {
+        height: 120px;
+        width: 120px;
+    }
 
-        .use-cases-item-details {
-            height: 48px;
-            width: 210px;
-        }
+    .team-member-img-row-2 {
+        height: 80px;
+        width: 80px;
+    }
+    .team-container-1{
+        margin-bottom:0;
+    }
+    .team-container-2{
+        flex-wrap: wrap;
+    }
+    .team-member-details{
+        margin-left:auto;
+        margin-right:auto;
+        margin-bottom:0;
+    }
+    
+    .team-member-details-2 {
+        margin-right:auto;
+        margin-left:auto;
+        margin-top:35px;
+    }
+    
+    
 }
 
 @media only screen and (max-width: 768px) {
 
     /* intro adjustments */
-        #sign-up {
-            margin-left: 35%;
-        }
+    #sign-up {
+        margin-left: 35%;
+    }
 
     /* feature adjustments */
-        #feature-header {
-            height: 48px;
-            width: 750px;
-            margin-bottom: 80px;
-        }
-
-        .feature-item-details {
-            width: 210px;
-        }
+    #feature-header {
+        height: 48px;
+        width: 650px;
+        margin-bottom: 80px;
+    }
+     #feature-details {
+         width: 600px;
+     }
+    .feature-item-details {
+        width: 600px;
+        margin-bottom:20px;
+    }
 
     /* screenshot adjusments */
-        .screenshot-container {
-            flex-wrap: wrap;
-            margin-top: 60px;
-            margin-bottom:60px;
-            margin-left: auto;
-            margin-right:auto;
+    .screenshot-container {
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
-        }
+    #screenshot-details {
+        margin-bottom: 20px;
+    }
 
-        #screenshot-details {
-            margin-bottom: 20px;
-        }
-
-        #slideshow-container {
-            margin-left: auto;
-            margin-top: 0;
-        }
+    #slideshow-container {
+        margin-left: auto;
+        margin-right:auto;
+    }
 
     /* use cases adjustments */
-        .use-cases-container {
-            flex-wrap: wrap;
-            margin-top: 60px;
-            margin-bottom:60px;
-            margin-left: auto;
-            margin-right:auto;
-        }
-        
-        .use-cases-details-container {
-            margin-right: auto;
-            margin-bottom: 20px;
-        }
+    .use-cases-container {
+        flex-wrap: wrap;
+        margin-top: 60px;
+        margin-bottom: 150px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
+    .use-cases-details-container {
+        margin-right: auto;
+        margin-bottom: 20px;
+        margin-top:0;
+
+    }
+    .use-cases-item-container{
+        margin-left:auto;
+        margin-right:auto;
+    }
+    #use-cases-details{
+       width:500px;
+     }
+    .use-cases-item-details {
+        width:400px;
+    }
+    /* Team-Advisors-Section */
+    .team-member-img {
+        height: 100px;
+        width: 100px;
+     }
+
+    .team-member-img-row-2 {
+        height: 80px;
+        width: 80px;
+    }
+    .team-member-title{
+        font-size:8px;
+    }
+    .advisors-main-container{
+        width:390px;
+    }
+    #advisors-header {
+        margin-top:70px;
+    }
     /* cio adjustments */
-        #pic-container {
-            margin-left: 50px;
-        }
+    #pic-container {
+        margin-left: 50px;
+    }
 
-        #cio-bio {
-            width: 500px;
-        }
+    #cio-bio {
+        width: 500px;
+    }
 
-        #cio-name {
-            width: 200px;
-            margin-top: 30px;
-        }
+    #cio-name {
+        width: 500px;
+        margin-top: 30px;
+    }
 
+    /* partners and contact form adjustments */
+    .partners-logo {
+        margin-right: 30px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
     /* footer adjustments */
-        .footer {
-            height: inherit;
-        }
-        #address-details {
-            margin-left: auto;
-        }
+    .footer {
+        height: inherit;
+    }
 
-        .footer-info-container {
-            display:flex;
-            flex-direction: column;
-            justify-content: center;
-        }
-        .logo-container{
-            margin-left: auto;
-            margin-right:auto;
-        }
-        .details-container {
-            float: none;
-            flex-direction: column;
-            position: relative;
-            right: 0px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        #address-details{
-            margin-left:45px;
-        }
-        #divider {
-            height: 1px;
-            width: 200px;
-            background-color: #34394F;
-            margin-top: 10px;
-            margin-bottom:10px;
-            margin-left: auto;
-            margin-right: auto;
-        }
+    #address-details {
+        margin-left: auto;
+    }
+
+    .footer-info-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .logo-container {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .details-container {
+        float: none;
+        flex-direction: column;
+        position: relative;
+        right: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #address-details {
+        margin-left: 45px;
+    }
+
+    #divider {
+        height: 1px;
+        width: 200px;
+        background-color: #34394F;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 
 @media only screen and (max-width: 414px) {
 
     /* background-containers */
-        .intro {
-            height: inherit;
-        }
+    .intro {
+        height: inherit;
+    }
+
     /* Intro Details */
-        .intro-container {
-            margin-top: 107.64pt;
-            margin-bottom: 170pt;
-            margin-left: auto;
-            margin-right: auto;
-        }
+    .intro-container {
+        margin-top: 107.64pt;
+        margin-bottom: 170pt;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
-        #intro-logo {
-            margin-top: 0;
-            width: 201pt;
-            height: 52pt;
-            margin-bottom: 0;
-        }
+    #intro-logo {
+        margin-top: 0;
+        width: 201pt;
+        height: 66pt;
+        margin-bottom: 0;
+    }
 
-        #intro-header {
-            line-height: 29pt;
-            font-size: 24pt;
-            margin-bottom: 15.5pt;
-            margin-top: 27pt;
-        }
+    #intro-header {
+        line-height: 29pt;
+        font-size: 22pt;
+        margin-bottom: 15.5pt;
+        margin-top: 27pt;
+        width:290pt;
+    }
 
-        #intro-details {
-            font-size: 16pt;
-            line-height: 21pt;
-            width: 236pt;
-            margin-top: 0;
-            margin-bottom: 0;
-        }
+    #intro-details {
+        font-size: 16pt;
+        line-height: 21pt;
+        width: 236pt;
+        margin-top: 0;
+        margin-bottom: 0;
+        width:236pt;
+    }
 
-        #sign-up {
-            font-size: 18pt;
-            line-height: 36pt;
-            width: 198pt;
-            height: 60pt;
-            border-radius: 36pt;
-            margin-top: 36pt;
-            margin-bottom: 0;
-            margin-left: auto;
-            margin-right: auto;
+    #sign-up {
+        font-size: 18pt;
+        line-height: 36pt;
+        width: 198pt;
+        border-radius: 36pt;
+        margin-top: 36pt;
+        margin-bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+        padding:10pt;
 
-        }
+
+    }
 
     /* team and advisors section not display */
-        .team-advisors-section {
-            display: none;
-        }
+    .team-advisors-section {
+        display: none;
+    }
 
     /* Features Details */
 
-        #feature-header {
-            width: 288pt;
-            font-size: 28pt;
-            line-height: 34pt;
-            margin-top: 48pt;
-            text-align: center;
-            padding-bottom: 32pt;
-        }
+    #feature-header {
+        width: 288pt;
+        font-size: 28pt;
+        line-height: 34pt;
+        margin-top: 48pt;
+        text-align: center;
+        padding-bottom: 32pt;
+    }
 
-        #feature-details {
-            width: 300pt;
-            font-size: 18pt;
-            line-height: 24pt;
-            text-align: center;
-            padding-bottom: 37pt;
-        }
+    #feature-details {
+        width: 300pt;
+        font-size: 18pt;
+        line-height: 24pt;
+        text-align: center;
+        padding-bottom: 0;
+    }
 
-        .feature-items-container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            align-items: center;
-        }
+    .feature-items-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
 
-        img {
-            margin-bottom: 33.93pt;
-            width: 90pt;
-            height: 96.07pt;
+    img {
+        margin-bottom: 33.93pt;
+        width: 90pt;
+        height: 96.07pt;
+    }
 
-        }
+    .feature-item {
+        margin-top: 33.93pt;
+    }
 
-        .feature-item {
-            margin-top: 33.93pt;
-        }
+    .feature-item-title {
+        font-size: 36pt;
+        font-weight: bold;
+        line-height: 44pt;
+        margin-bottom: 0;
+        margin-left:auto;
+        margin-right:auto;
+        text-align:left;
+        width:239pt;
+    }
 
-        .feature-item-title {
-            width: 142pt;
-            font-size: 36pt;
-            font-weight: bold;
-            line-height: 44pt;
-            margin-bottom: 0;
-        }
-
-        .feature-item-details {
-            width: 239pt;
-            font-size: 18pt;
-            line-height: 24pt;
-            margin-top: 16pt;
-            margin-bottom: 55pt;
-        }
+    .feature-item-details {
+        width: 239pt;
+        font-size: 18pt;
+        line-height: 24pt;
+        margin-top: 16pt;
+        margin-bottom: 0;
+        text-align:left;
+    }
 
     /* Screenshot Details */
 
-        .screenshot-details-container {
-            margin-right: 36pt;
-            margin-left: 36pt;
-        }
+    .screenshot-details-container {
+        margin-right: 36pt;
+        margin-left: 36pt;
+    }
 
-        .screenshot-container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            margin-bottom: 48pt;
-            margin-top: 48pt;
-        }
+    .screenshot-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 48pt;
+        margin-top: 48pt;
+    }
 
-        #screenshot-header {
-            width: 268pt;
-            font-size: 36pt;
-            line-height: 44pt;
-            text-align: left;
-            margin-left: auto;
-            margin-right: auto;
-            margin-bottom: 24pt;
-        }
+    #screenshot-header {
+        width: 268pt;
+        font-size: 36pt;
+        line-height: 44pt;
+        text-align: left;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 24pt;
+    }
 
-        #screenshot-details {
-            width: 268pt;
-            font-size: 18pt;
-            font-weight: 300;
-            line-height: 24pt;
-            margin-left: auto;
-            margin-top: auto;
-            text-align: left;
-        }
+    #screenshot-details {
+        width: 268pt;
+        font-size: 18pt;
+        font-weight: 300;
+        line-height: 24pt;
+        margin-left: auto;
+        margin-top: auto;
+        text-align: left;
+    }
 
-        #slideshow-container {
-            margin-left: 36pt;
-            margin-right: 36pt;
-            margin-top: 36pt;
-        }
+    #slideshow-container {
+        margin-top: 36pt;
+        margin-right:auto;
+        margin-left:auto;
+        width:410px; 
+    }
 
     /* Use Cases Section */
-        .use-cases-container {
-            margin-top: 47.09pt;
-            margin-bottom: 45.87pt;
-            margin-right: 34pt;
-            margin-left: 34pt;
-        }
+    .use-cases-container {
+        margin-top: 45pt;
+        margin-bottom: 45pt;
+        margin-right: auto;
+        margin-left: auto;
+    }
 
-        .use-cases-details-container {
-            margin-right: 0;
-        }
+    .use-cases-details-container {
+        margin-right: 0;
+    }
 
-        .use-cases-item-container {
-            margin-right: auto;
-            margin-left: auto;
-        }
+    .use-cases-items-container {
+        margin-right: auto;
+        margin-left: auto;
+    }
 
-        #use-cases-header {
-            font-size: 36pt;
-            line-height: 44pt;
-            text-align: center;
-        }
+    #use-cases-header {
+        font-size: 36pt;
+        line-height: 44pt;
+        text-align: center;
+        margin-left:36pt;
+        margin-right:36pt;
+    }
 
-        #use-cases-details {
-            font-size: 18pt;
-            font-weight: 300;
-            line-height: 24pt;
-            margin-top: 23.94pt;
-        }
+    #use-cases-details {
+        font-size: 18pt;
+        font-weight: 300;
+        line-height: 24pt;
+        margin-top: 23pt;
+        margin-left:36pt;
+        margin-right:36pt;
+        width: 260pt;
+    }
 
-        #use-cases-item-img {
-            height: 81.14pt;
-            width: 79.92pt;
-        }
+    .use-cases-item-img {
+        height: 80pt;
+        width: 80pt;
+        margin-right:auto;
+        margin-left:auto;
+    }
+    .use-cases-item-container{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:center;
+    }
+    .use-cases-item-details {
+        width: 260pt;
+        font-weight: 300;
+        font-size: 18pt;
+        line-height: 24pt;
+        text-align: left;
+        margin-left: auto;
+        margin-right:auto;
+        height:inherit;
 
-        .use-cases-item-details {
-            width: 180pt;
-            font-weight: 300;
-            font-size: 18pt;
-            line-height: 24pt;
-            text-align: left;
-            margin-left: 32pt;
-        }
+    }
 
     /* CIO Info Section */
 
-        .cio-info-section {
-            margin: auto;
-            width: inherit;
-            height: 242pt;
-        }
-        .cio-details-container {
-            display: flex;
-            margin-right: 0;
-        }
+    .cio-info-section {
+        margin: 0;
+        width: inherit;
+        height: 600pt;
+    }
 
-        #pic-container {
-            height: 61pt;
-            width: 61pt;
-            border: 1pt solid #979797;
-            border-radius: 50%;
-            margin-left: 23pt;
-            margin-top: 35.5pt;
+    .cio-details-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        margin-right: auto;
+        margin-left:auto;
+        margin-top:5pt;
+    }
 
-        }
+    #pic-container {
+        height: 100pt;
+        width: 100pt;
+        border: 1pt solid #979797;
+        border-radius: 50%;
+        margin-left: auto;
+        margin-right:auto;
+        margin-top: 0;
 
-        #cio-bio {
-            width: 200pt;
-            font-size: 14pt;
-            font-weight: 300;
-            line-height: 21pt;
-            margin-top: 36pt;
-            margin-left: 20pt;
-            margin-bottom: 5pt;
-            text-align: left;
-        }
+    }
 
-        #cio-name {
-            width: 232pt;
-            font-size: 16pt;
-            font-weight: 300;
-            line-height: 19pt;
-            text-align: left;
-            margin-top: 16pt;
-        }
+    #cio-bio {
+        width: 280pt;
+        font-size: 14pt;
+        font-weight: 300;
+        line-height: 21pt;
+        margin-top: 0;
+        margin-left: 20pt;
+        margin-bottom: 0;
+        text-align: left;
+    }
+
+    #cio-name {
+        width: 280pt;
+        font-size: 16pt;
+        font-weight: 300;
+        line-height: 19pt;
+        text-align: left;
+        margin-top: 16pt;
+        font-weight:bold;
+    }
+    /* partners and contact form section */
+
+    .partners-contactform-outer-container{
+        margin-top:56pt;
+    }
+    .contact-form-container{
+        margin-top:75pt;
+    }
+    .partners-container {
+        flex-direction: column;
+    }
+    .partners-logo {
+        margin-right:0;
+    }
+    #authio-logo {
+        width:79pt;
+        height:40pt;
+    }
+    #intuit-factory-logo {
+        width:124pt;
+        height:40pt;
+    }
+    #atlantaai-logo{
+        width:65pt;
+        height:60pt;
+    }
+    #partners-header {
+        font-size: 32pt;	
+        line-height: 39pt;	
+        margin-bottom:32pt;
+    }
+    #contact-us-header {
+        font-size: 32pt;
+        line-height: 39pt;
+        margin-bottom:36pt;
+    }
+    /* footer adjustments */
+    
+    #footer-logo {
+        width:201pt;
+        height:66pt;
+    }
+    #divider{
+        display:none;
+    }
+    .details-container{
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .media-links{
+        font-size:14pt;
+        line-height:19pt;
+    }
+    #address-details{
+        width:260pt;
+        font-size:14pt;
+        line-height:22pt;
+        text-align:left;
+    }
+    #copyright {
+        width:240pt;
+        font-size:12pt;
+        line-height:19pt;
+        margin-top:24pt;
+        text-align:center;
+    }
 
 
 }
@@ -977,153 +1190,141 @@ i {
 @media only screen and (max-width: 375px) {
 
     /* Intro Details */
-        #intro-logo {
-            width: 170.4pt;
-            margin-top: 0;
-            margin-bottom: 10pt;
-        }
+    #intro-logo {
+        width: 170.4pt;
+        margin-top: 0;
+        margin-bottom: 10pt;
+    }
 
-        #intro-header {
-            line-height: 24pt;
-            font-size: 18pt;
-            margin-bottom: 10pt;
-            margin-top: 0;
-        }
+    #intro-header {
+        width: 230pt;
+        line-height: 24pt;
+        font-size: 16pt;
+        margin-bottom: 10pt;
+        margin-top: 0;
+    }
 
-        #intro-details {
-            font-size: 14pt;
-            line-height: 18pt;
-            margin-top: 0;
-            margin-bottom: 20pt;
-        }
+    #intro-details {
+        width: 200pt;
+        font-size: 12pt;
+        line-height: 18pt;
+        margin-top: 0;
+        margin-bottom: 20pt;
+    }
 
-        #sign-up {
-            font-size: 16pt;
-            line-height: 30pt;
-            width: 170pt;
-            height: 50pt;
-            border-radius: 36pt;
-        }
+    #sign-up {
+        font-size: 16pt;
+        line-height: 30pt;
+        width: 170pt;
+        border-radius: 36pt;
+    }
 
     /* Features Details */
 
-        #feature-header {
-            width: 250pt;
-            font-size: 24pt;
-            line-height: 30pt;
-            margin-top: 38pt;
-            text-align: center;
-            padding-bottom: 10pt;
-        }
+    #feature-header {
+        width: 250pt;
+        font-size: 24pt;
+        line-height: 30pt;
+        margin-top: 38pt;
+        text-align: center;
+    }
 
-        #feature-details {
-            width: 250pt;
-            font-size: 16pt;
-            line-height: 20pt;
-            text-align: center;
-            padding-bottom: 10pt;
-        }
+    #feature-details {
+        width: 250pt;
+        font-size: 16pt;
+        line-height: 20pt;
+        text-align: center;
+    }
 
-        img {
-            margin-bottom: 28pt;
-        }
+    .feature-item {
+        margin-top: 28pt;
+    }
 
-        .feature-item {
-            margin-top: 28pt;
-        }
+    .feature-item-title {
+        font-size: 30pt;
+        line-height: 40pt;
+        margin-left:auto;
+        margin-right:auto;
+        width: 226pt;
 
-        .feature-item-title {
-            font-size: 30pt;
-            line-height: 40pt;
-        }
+    }
 
-        .feature-item-details {
-            width: 220pt;
-            font-size: 16pt;
-            line-height: 22pt;
-            margin-top: 10pt;
-            margin-bottom: 38pt;
-        }
+    .feature-item-details {
+        width: 220pt;
+        font-size: 16pt;
+        line-height: 22pt;
+        margin-top: 10pt;
+        margin-bottom: 38pt;
+    }
 
     /* Screenshot Details */
 
-        .screenshot-details-container {
-            margin-right: 26pt;
-            margin-left: 26pt;
-        }
+    .screenshot-details-container {
+        margin-right: 26pt;
+        margin-left: 26pt;
+    }
 
-        .screenshot-container {
-            margin-bottom: 38pt;
-            margin-top: 38pt;
-        }
+    .screenshot-container {
+        margin-bottom: 38pt;
+        margin-top: 38pt;
+    }
 
-        #screenshot-header {
-            width: 218pt;
-            font-size: 27pt;
-            line-height: 38pt;
-            margin-bottom: 24pt;
-        }
+    #screenshot-header {
+        width: 218pt;
+        font-size: 27pt;
+        line-height: 38pt;
+        margin-bottom: 24pt;
+    }
 
-        #screenshot-details {
-            width: 218pt;
-            font-size: 16pt;
-            font-weight: 300;
-            line-height: 20pt;
-        }
+    #screenshot-details {
+        width: 218pt;
+        font-size: 16pt;
+        font-weight: 300;
+        line-height: 20pt;
+    }
 
-        #slideshow-container {
-            margin-left: 26pt;
-            margin-right: 26pt;
-            margin-top: 24pt;
-        }
+    #slideshow-container {
+        margin-top: 24pt;
+        /* width: 370px;  */
+    }
 
     /* Use Cases Section */
-        .use-cases-container {
-            margin-right: auto;
-            margin-left: auto;
-        }
+    .use-cases-container {
+        margin-right: auto;
+        margin-left: auto;
+    }
 
-        .use-cases-item-details {
-            margin-left: 12pt;
-        }
+    #use-cases-details{
+        margin-left: auto;
+        margin-right:auto;
+        font-size:14pt;
+        line-height:19pt;
+        width:200pt;
+    }
+
+    .use-cases-item-details {
+        margin-left: auto;
+        margin-right:auto;
+        font-size:14pt;
+        line-height:19pt;
+        width:200pt;
+        
+    }
 
     /* CIO Info Section */
-
-        .cio-info-section {
-            margin: auto;
-            width: inherit;
-            height: 212pt;
-        }
-
-        #pic-container {
-            height: 51pt;
-            width: 51pt;
-            border: 1pt solid #979797;
-            border-radius: 50%;
-            margin-left: 15pt;
-            margin-top: 35.5pt;
-
-        }
-
-        #cio-bio {
-            width: 190pt;
-            font-size: 12pt;
-            font-weight: 300;
-            line-height: 21pt;
-            margin-top: 36pt;
-            margin-left: 20pt;
-            margin-bottom:0;
-            text-align: left;
-        }
-
-        #cio-name {
-            width: 202pt;
-            font-size: 14pt;
-            font-weight: 300;
-            line-height: 19pt;
-            text-align: left;
-            margin-top: 20pt;
-        }
-
+    
+    #cio-bio {
+        width: 220pt;
+        font-size: 12pt;
+    }
+    #cio-name {
+        width: 250pt;
+    }
 }
 
+@media only screen and (max-width: 320px) {
+    #slideshow-container {
+        margin-top: 24pt;
+        width: 310px;
+    }
+}
