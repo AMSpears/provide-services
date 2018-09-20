@@ -19,7 +19,7 @@ import Misha from "../Img/Team/misha-sulpovar.png"
 import Dawn from "../Img/Team/dawn-mcgreevey.png"
 import Jeff from "../Img/Team/jeff-bekiares.png"
 import Zac from "../Img/Team/zac-parker.png"
-import Taylor from "../Img/Team/taylor-heath.png"
+// import Taylor from "../Img/Team/taylor-heath.png"
 import Philip from "../Img/Team/philip-keiter.png"
 import Kevin from "../Img/Team/kevin-munc.png"
 import Chaz from "../Img/Team/chaz-spears.png"
@@ -221,13 +221,10 @@ const Content=() => {
                     <div className= "partners-contactform-outer-container">
                         <h1 id= "partners-header">Partners</h1>
                         <div className= "partners-container">
-                           {/* <div className= "partners-logo"><img id="aws-logo" src={Authio} alt = "AWS" /></div>
-                           <div className= "partners-logo"><img id="azure-logo" src= {Atlantaai} alt= "Azure" /></div>  */}
                            <div className= "partners-logo"><img id="authio-logo" src={Authio} alt = "Authio" /></div>
-                           <div className= "partners-logo"><img id="atlantaai-logo" src= {Atlantaai} alt= "Atlanta Applied AI" /></div> 
                            <div className= "partners-logo"><img id= "intuit-factory-logo" src={Intuit_factory}  alt="Intuit Factory" /></div>
+                           <div className="partners-logo"><img id="atlantaai-logo" src={Atlantaai} alt="Atlanta Applied AI" /></div> 
                         </div>
-
                         <a name="contact">
                             <div className= "contact-form-container">
                                 <h1 id= "contact-us-header">Contact Us</h1>
