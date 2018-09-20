@@ -80,7 +80,7 @@ input[type=submit] {
 @media only screen and (max-width: 414px) {
     label {
         font-size: 24pt;
-        font-weight:32pt;
+        line-height:32pt;
     }
     input[placeholder],
     textarea {
