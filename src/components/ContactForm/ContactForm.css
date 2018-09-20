@@ -24,6 +24,13 @@ textarea {
 
 textarea {
     height: 143px;
+    color: #E7E9F0;
+    font-family: 'Roboto';
+    font-size: 18px;
+    line-height: 24px;
+    text-align: left;
+    padding-top:9px;
+    padding-left:16px;
 }
 
 input[placeholder],
@@ -32,17 +39,6 @@ textarea[placeholder] {
     font-family: 'Roboto';
     font-size: 18px;
     line-height: 24px;
-}
-
-textarea {	
-    color: #E7E9F0;	
-    font-family: 'Roboto';	
-    font-size: 18px;	
-    line-height: 24px;	
-    text-align: left;
-    padding-top:9px;
-    padding-left:16px;
-
 }
 
 ::placeholder {

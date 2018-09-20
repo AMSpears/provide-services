@@ -1,8 +1,8 @@
 import React from 'react'
 
-// Main Logoimport FeatureItem1 from "../Img/noun_Network_1.png"
-
+// Main Logo 
 import Logo from '../Img/Presskit/provide-logo-dark-blue-light-letters-dark-bg.png'
+
 // Feature Images
 import FeatureItem1 from "../Img/turnkey-devops.svg"
 import FeatureItem2 from "../Img/turnkey-dlt.svg"
@@ -13,16 +13,17 @@ import FeatureItem3 from "../Img/massively-scalable.svg"
 import UseCaseImg1 from "../Img/noun_Network_2.png"
 import UseCaseImg2 from "../Img/noun_Network_1.png"
 import UseCaseImg3 from "../Img/noun_Network_3.png"
+
 // Team Members Images
 import Kyle from "../Img/Team/kyles-thomas.png"
 import Misha from "../Img/Team/misha-sulpovar.png"
 import Dawn from "../Img/Team/dawn-mcgreevey.png"
 import Jeff from "../Img/Team/jeff-bekiares.png"
 import Zac from "../Img/Team/zac-parker.png"
-// import Taylor from "../Img/Team/taylor-heath.png"
 import Philip from "../Img/Team/philip-keiter.png"
 import Kevin from "../Img/Team/kevin-munc.png"
 import Chaz from "../Img/Team/chaz-spears.png"
+
 // Advisor Members Images
 import Greg from "../Img/Team/advisors/greg-kidd.png"
 import Chris from "../Img/Team/advisors/chris-maffuccio.png"
@@ -30,10 +31,13 @@ import Austin from "../Img/Team/advisors/austin-mills.png"
 import Dale from "../Img/Team/advisors/dale-tuck.png"
 import Len from "../Img/Team/advisors/len-vitello.png"
 import Thomas from "../Img/Team/advisors/thomas-bennett.png"
+
 //CIO image
 import CIO from "../Img/cio-picture.jpeg"
+
 // screenshot slideshow section
 import Carousel from "../Carousel/Carousel"
+
 // Partners logos 
 import Authio  from "../Img/authio-logo.png"
 import Atlantaai from "../Img/atlanta-ai-logo.png"
