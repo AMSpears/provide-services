@@ -32,7 +32,7 @@ class ContactForm extends React.Component {
         // condition for sucessfull or unsucessful form submition
         if (response.data.msg === 'success') {
           // MSG after sucessfull form submition
-          elMsg.innerHTML = 'Thanks for reaching out! We recieved your message and will contact you soon.'
+          elMsg.innerHTML = 'Thanks for reaching out! We received your message and will contact you soon.'
         } else if (response.data.msg === 'fail') {
           // MSG after unsucessfull form submition
           elMsg.innerHTML = 'An error occurred when sending this message! Please try again or send us a direct message to hello@provide.services'

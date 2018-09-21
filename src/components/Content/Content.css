@@ -112,6 +112,7 @@ p {
     margin-left: auto;
     margin-right: auto;
     width: 426px;
+    height: 110px;
 }
 
 
@@ -254,7 +255,7 @@ img {
 
 #slideshow-container {
     margin-right: 128px;
-    width:475px;
+    width:627px;
  }
 
 
@@ -1006,7 +1007,6 @@ i {
         margin-top: 36pt;
         margin-right:auto;
         margin-left:auto;
-        width:410px; 
     }
 
     /* Use Cases Section */
@@ -1192,7 +1192,8 @@ i {
 
     /* Intro Details */
     #intro-logo {
-        width: 170.4pt;
+        width: 190pt;
+        height:62pt;
         margin-top: 0;
         margin-bottom: 10pt;
     }
@@ -1286,7 +1287,6 @@ i {
 
     #slideshow-container {
         margin-top: 24pt;
-        /* width: 370px;  */
     }
 
     /* Use Cases Section */
@@ -1326,7 +1326,6 @@ i {
 @media only screen and (max-width: 320px) {
     #slideshow-container {
         margin-top: 24pt;
-        width: 310px;
     }
      /* footer adjustments */
     
