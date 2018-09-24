@@ -64,6 +64,9 @@ input[type=submit] {
     padding:10px;
     border: none;
     cursor:pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 #button:hover{
    opacity: 0.8;
