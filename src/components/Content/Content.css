@@ -256,6 +256,7 @@ img {
 #slideshow-container {
     margin-right: 128px;
     width:627px;
+    height:inherit;
  }
 
 
